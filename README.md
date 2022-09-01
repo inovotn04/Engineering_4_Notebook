@@ -58,6 +58,6 @@ Your readme will have various images and gifs on it. Upload a test image and tes
 ### Test Link
 [Take This You Filthy Animal](raspberry-pi/temp.py)
 ### Test Image
-[PinkPanther]()
+![PinkPanther](images/pink.jpg)
 ### Test GIF
 ![Me when engineering](images/lizard-dance.gif)
