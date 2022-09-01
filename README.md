@@ -60,4 +60,4 @@ Your readme will have various images and gifs on it. Upload a test image and tes
 ### Test Image
 [PinkPanther]()
 ### Test GIF
-[Me when engineering](images/lizard-dance.gif)
+![Me when engineering](images/lizard-dance.gif)
