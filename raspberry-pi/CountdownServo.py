@@ -1,6 +1,8 @@
 import board
 import time
 import digitalio
+import pwmio
+from adafruit_motor import servo
 
 led_red = digitalio.DigitalInOut(board.GP13)
 led_red.direction = digitalio.Direction.OUTPUT
@@ -32,6 +34,7 @@ while True:
                 break
         if Hehe == 1:
             print("ABORT")
+            time.sleep(2)
         if Hehe == 0:
 
             print("Liftoff")
