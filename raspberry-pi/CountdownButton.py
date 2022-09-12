@@ -16,23 +16,23 @@ led_green.value = False
 while True:
     if not button.value:
         print("Countdown time")
-        Hehe = 0
+        abortcheck = 0
         x = 10
         for x in range (10, -1, -1):
             print(x)
             time.sleep(0.5)
             if not button.value:
-                Hehe = 1
+                abortcheck = 1
                 break
             led_red.value = True
             time.sleep(0.5)
             led_red.value = False
             if not button.value:
-                Hehe = 1
+                abortcheck = 1
                 break
-        if Hehe == 1:
+        if abortcheck == 1:
             print("ABORT")
-        if Hehe == 0:
+        if abortcheck == 0:
 
             print("Liftoff")
             led_green.value = True
