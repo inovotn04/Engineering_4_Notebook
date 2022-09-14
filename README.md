@@ -8,11 +8,11 @@
 
 &nbsp;
 
-## Raspberry_Pi_Assignment_Template
+## Launchpad Part 1
 
 ### Assignment Description
 
-Write your assignment description here. What is the purpose of this assignment? It should be at least a few sentences.
+Countdown from 10 seconds to 0 (liftoff). Print that countdown to the serial monitor.
 
 ### Evidence 
 
