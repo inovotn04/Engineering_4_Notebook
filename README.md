@@ -39,12 +39,60 @@ Countdown from 10 seconds to 0 (liftoff). Print that countdown to the serial mon
 
 ![Spain without the a](images/blinky.gif)
 
+### Wiring
+aaaa
 
 ### Code
 [CountdownBlink.py](https://github.com/inovotn04/Engineering_4_Notebook/blob/main/raspberry-pi/CountdownBlink.py)
 
 ### Reflection
 
+Long leg of LED goes to positive. Turn the LED on and off every half seconds so it does a full blink every second. Have a time.sleep at the end or put it in a while True loop so you can actually see the green LED turn on before the code finishes running. 
+
+&nbsp;
+
+## Launchpad Part 3
+
+### Assignment Description
+
+Countdown from 10 seconds to 0 (liftoff). Print that countdown to the serial monitor. Blink a red light each second of the countdown, and turn on a green LED to signify liftoff. Include a physical button that starts the countdown. 
+
+### Evidence 
+
+![button without the on](images/button.gif)
+
+### Wiring
+aaaaa
+
+### Code
+[CountdownButton.py](https://github.com/inovotn04/Engineering_4_Notebook/blob/main/raspberry-pi/CountdownButton.py)
+
+### Reflection
+
+Hypothetically there is probably an easier way to do this asssignment, that being said what I did works. Keep in mind! the "if not button.value" should be changed to "if button.value" and vice versa if you are wiring the button differently, not to ground and to the power pin instead. Also in the future perhaps find a way to code it more cleanly so instead of it checking to see if the button has been pressed every half second, it is able to continuously check, if possible.
+
+&nbsp;
+
+## Launchpad Part 4
+
+### Assignment Description
+
+Countdown from 10 seconds to 0 (liftoff). Print that countdown to the serial monitor. Blink a red light each second of the countdown, and turn on a green LED to signify liftoff. Include a physical button that starts the countdown. Actuate a 180 degree servo on liftoff to simulate the launch tower disconnecting.
+
+
+### Evidence 
+
+![AHHHHHHHHHHHHHHH](images/pain.gif)
+
+
+### Code
+[CountdownServo.py](https://github.com/inovotn04/Engineering_4_Notebook/blob/main/raspberry-pi/CountdownServo.py)
+
+### Wiring
+aaaaa
+
+### Reflection
+The servo was easy enough, just adding a few lines of code. Watch out for the wiring because I accidentally wired the ground wire to 3v3 and it temporarily shorted my pico, didn't fry it though. If you want to do the spicy version where it begins to sweep at 3 seconds the easiest way is to use time.monotonic, but you technically don't have to if you have some crazy if statements and for loops but frankly that's just above my pay grade (I'm not getting paid).
 
 
 
