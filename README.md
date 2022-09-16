@@ -40,7 +40,8 @@ Countdown from 10 seconds to 0 (liftoff). Print that countdown to the serial mon
 ![Spain without the a](images/blinky.gif)
 
 ### Wiring
-aaaa
+
+![LEDWIRING](images/jusled.jpg)
 
 ### Code
 [CountdownBlink.py](https://github.com/inovotn04/Engineering_4_Notebook/blob/main/raspberry-pi/CountdownBlink.py)
@@ -62,7 +63,8 @@ Countdown from 10 seconds to 0 (liftoff). Print that countdown to the serial mon
 ![button without the on](images/button.gif)
 
 ### Wiring
-aaaaa
+
+![BUTTONWIRING](images/jusbutton.jpg)
 
 ### Code
 [CountdownButton.py](https://github.com/inovotn04/Engineering_4_Notebook/blob/main/raspberry-pi/CountdownButton.py)
@@ -89,7 +91,8 @@ Countdown from 10 seconds to 0 (liftoff). Print that countdown to the serial mon
 [CountdownServo.py](https://github.com/inovotn04/Engineering_4_Notebook/blob/main/raspberry-pi/CountdownServo.py)
 
 ### Wiring
-aaaaa
+
+![servowiring](images/buttonwservo.jpg)
 
 ### Reflection
 The servo was easy enough, just adding a few lines of code. Watch out for the wiring because I accidentally wired the ground wire to 3v3 and it temporarily shorted my pico, didn't fry it though. If you want to do the spicy version where it begins to sweep at 3 seconds the easiest way is to use time.monotonic, but you technically don't have to if you have some crazy if statements and for loops but frankly that's just above my pay grade (I'm not getting paid).
