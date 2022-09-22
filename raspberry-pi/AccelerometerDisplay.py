@@ -6,8 +6,8 @@ import board
 import time
 import digitalio
 import adafruit_mpu6050
-import busio #import for all libraries
-import adafruit_mpl3115a2
+import busio
+import adafruit_mpl3115a2 #import for all libraries
 
 displayio.release_displays()
 
@@ -23,9 +23,9 @@ display = adafruit_displayio_ssd1306.SSD1306(display_bus, width=128, height=64) 
 
 mpu = adafruit_mpu6050.MPU6050(i2c, address=0x68) #mpu init
 
-sensor = adafruit_mpl3115a2.MPL3115A2(i2c, address=0x60)
+sensor = adafruit_mpl3115a2.MPL3115A2(i2c, address=0x60) #Altimeter init
 
-initAlt = sensor.altitude
+initAlt = sensor.altitude #Checks starting altitude
 
 while True:
     x = round(mpu.acceleration[0], 3)
@@ -39,13 +39,13 @@ while True:
     title = f"x: {x} m/s^2 \n y: {y} m/s^2 \n z: {z} m/s^2 \n ALTITUDE: {sensor.altitude}"
     # the order of this command is (font, text, text color, and location)
     text_area = label.Label(terminalio.FONT, text=title, color=0xFFFF00, x=5, y=5)
-    splash.append(text_area)    
+    splash.append(text_area)
     
     # send display group to screen
     display.show(splash)
 
-    currentAlt = sensor.altitude
-    altDifference = (currentAlt - initAlt)
+    currentAlt = sensor.altitude #Checks active altitude
+    altDifference = (currentAlt - initAlt) #Checks difference between current and starting alt
     if z < 1 and z > -1 and altDifference < 3: #Checks if it is 90 degree angle
         led.value = True
     else:

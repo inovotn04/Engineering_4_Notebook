@@ -105,7 +105,7 @@ The servo was easy enough, just adding a few lines of code. Watch out for the wi
 
 ### Assignment Description
 
-Countdown from 10 seconds to 0 (liftoff). Print that countdown to the serial monitor. Blink a red light each second of the countdown, and turn on a green LED to signify liftoff. Include a physical button that starts the countdown. Actuate a 180 degree servo on liftoff to simulate the launch tower disconnecting.
+Create a module that has an accelerometer that continuously reports x, y, and z acceleration values on the serial monitor.
 
 
 ### Evidence 
@@ -118,7 +118,7 @@ Countdown from 10 seconds to 0 (liftoff). Print that countdown to the serial mon
 
 ### Wiring
 
-![servowiring](images/buttonwservo.jpg)
+![Accelwire](images/Accelwire.jpg)
 
 ### Reflection
 Wiring was super easy it's weird that you only wire one side of the accelerometer though. As far as the code goes I think the f string is easiest for printing. You may not have to slap the mpu inputs into variables and you could directly pull into the print string but I haven't tried it and frankly I am too scared to, but it could save you a couple lines of code. Don't be alarmed by your z variable printing ~9.8 that's just gravity.
@@ -130,7 +130,7 @@ Wiring was super easy it's weird that you only wire one side of the acceleromete
 
 ### Assignment Description
 
-Countdown from 10 seconds to 0 (liftoff). Print that countdown to the serial monitor. Blink a red light each second of the countdown, and turn on a green LED to signify liftoff. Include a physical button that starts the countdown. Actuate a 180 degree servo on liftoff to simulate the launch tower disconnecting.
+Create a module that has an accelerometer that continuously reports x, y, and z acceleration values on the serial monitor. The module must have an LED that turns on if the helicopter is tilted to 90 degrees. The module must be powered by a mobile power source. 
 
 
 ### Evidence 
@@ -139,14 +139,38 @@ Countdown from 10 seconds to 0 (liftoff). Print that countdown to the serial mon
 
 
 ### Code
-[Accelerometer.py](https://github.com/inovotn04/Engineering_4_Notebook/blob/main/raspberry-pi/Accelerometer.py)
+[AccelerometerLED.py](https://github.com/inovotn04/Engineering_4_Notebook/blob/main/raspberry-pi/AccelerometerLED.py)
 
 ### Wiring
 
-![servowiring](images/buttonwservo.jpg)
+![AcceLED](images/AcceLED.jpg)
 
 ### Reflection
 This assignment was actually dead easy. Everything worked perfectly the first time. I think I could maybe give you advice in terms of find the right value for the if statement to check whether it's 90 degrees, personally mine was pretty jumpy so I set it to 1 for the z variable.
+
+
+&nbsp;
+
+## Crash Avoidance Part 3
+
+### Assignment Description
+
+
+### Evidence 
+
+![AHHHHHHHHHHHHHHH](images/pain.gif)
+
+
+### Code
+[AccelerometerDisplay.py](https://github.com/inovotn04/Engineering_4_Notebook/blob/main/raspberry-pi/AccelerometerDisplay.py)
+
+### Wiring
+
+![AccelDis](images/AccelDis.jpg)
+
+### Reflection
+This was pretty challenging, in terms of getting the wiring to work and working with the pretty finicky code. Main thing to remember is that i2c wiring is always off of two pins, this does however mean the coding is a bit harder because you have to put in the address in a long initialization statement for each device. Also make sure to use the code to find the addresses of the devices, and if you're not finding them try reconnecting and checking wiring.
+
 
 
 &nbsp;
