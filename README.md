@@ -110,7 +110,7 @@ Create a module that has an accelerometer that continuously reports x, y, and z 
 
 ### Evidence 
 
-![AHHHHHHHHHHHHHHH](images/pain.gif)
+![wowza](images/accelgif.gif)
 
 
 ### Code
@@ -135,7 +135,7 @@ Create a module that has an accelerometer that continuously reports x, y, and z 
 
 ### Evidence 
 
-![AHHHHHHHHHHHHHHH](images/pain.gif)
+![Spam (like the meat)](images/powergif.gif)
 
 
 ### Code
@@ -154,11 +154,12 @@ This assignment was actually dead easy. Everything worked perfectly the first ti
 ## Crash Avoidance Part 3
 
 ### Assignment Description
+Create a module that has an accelerometer that continuously reports x, y, and z acceleration values on the serial monitor. The module must have an LED that turns on if the helicopter is tilted to 90 degrees. The module must be powered by a mobile power source. The module must have an onboard screen that prints x, y, and z angular velocity values (rad/s) rounded to 3 decimal places.
 
 
 ### Evidence 
 
-![AHHHHHHHHHHHHHHH](images/pain.gif)
+![bush did 9/11](images/disgif.gif)
 
 
 ### Code
