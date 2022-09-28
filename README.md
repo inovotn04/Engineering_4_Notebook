@@ -172,6 +172,34 @@ Create a module that has an accelerometer that continuously reports x, y, and z 
 ### Reflection
 This was pretty challenging, in terms of getting the wiring to work and working with the pretty finicky code. Main thing to remember is that i2c wiring is always off of two pins, this does however mean the coding is a bit harder because you have to put in the address in a long initialization statement for each device. Also make sure to use the code to find the addresses of the devices, and if you're not finding them try reconnecting and checking wiring.
 
+&nbsp;
+
+## Landing Area Part 1
+
+### Assignment Description
+Create a module that has an accelerometer that continuously reports x, y, and z acceleration values on the serial monitor. The module must have an LED that turns on if the helicopter is tilted to 90 degrees. The module must be powered by a mobile power source. The module must have an onboard screen that prints x, y, and z angular velocity values (rad/s) rounded to 3 decimal places.
+
+
+### Evidence 
+
+![wowza](images/trianglegif.gif)
+
+
+### Code
+[triangleArea.py](https://github.com/inovotn04/Engineering_4_Notebook/blob/main/raspberry-pi/triangleArea.py)
+
+
+### Reflection
+The split function formats the output as a list, so to access it you need to do _your output name_[_number of item in list_]. For example if I did 
+```python
+txt = "69, 420"
+output = txt.split(, )
+```
+I would have to access one of those numbers by saying
+```python
+x = output[1]
+```
+to get the number "420." Other than that, using 'try' and 'except' is actually astoundingly simple and horrifically helpful so it's important to use that. The only other problem was the way I formatted my math statement. Python doesn't recognize 'a(b)' as multiplication so you have to format that as 'a*(b)' and that caught me up for a while.
 
 
 &nbsp;
