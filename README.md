@@ -3,13 +3,13 @@
 &nbsp;
 
 ## Table of Contents
-* [Launchpad Part 1](#Launchpad_Part_1)
-* [Launchpad Part 2](#Launchpad_Part_2)
-* [Launchpad Part 3](#Launchpad_Part_3)
-* [Launchpad Part 4](#Launchpad_Part_4)
-* [Crash Avoidance Part 1](#Crash_Avoidance_Part_1)
-* [Crash Avoidance Part 2](#Crash_Avoidance_Part_2)
-* [Crash Avoidance Part 3](#Crash_Avoidance_Part_3)
+* [Launchpad Part 1](#launchpad_part_1)
+* [Launchpad Part 2](#launchpad_part_2)
+* [Launchpad Part 3](#launchpad_part_3)
+* [Launchpad Part 4](#launchpad_part_4)
+* [Crash Avoidance Part 1](#crash_avoidance_part_1)
+* [Crash Avoidance Part 2](#crash_avoidance_part_2)
+* [Crash Avoidance Part 3](#crash_avoidance_part_3)
 * [Onshape_Assignment_Template](#Onshape_Assignment_Template)
 
 &nbsp;
