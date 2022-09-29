@@ -7,9 +7,9 @@
 * [Launchpad Part 2](#launchpad-part-2)
 * [Launchpad Part 3](#launchpad-part-3)
 * [Launchpad Part 4](#launchpad-part-4)
-* [Crash Avoidance Part 1](#crash-avoidance-part_1)
-* [Crash Avoidance Part 2](#crash-avoidance-part_2)
-* [Crash Avoidance Part 3](#crash-avoidance-part_3)
+* [Crash Avoidance Part 1](#crash-avoidance-part-1)
+* [Crash Avoidance Part 2](#crash-avoidance-part-2)
+* [Crash Avoidance Part 3](#crash-avoidance-part-3)
 * [Onshape_Assignment_Template](#Onshape_Assignment_Template)
 
 &nbsp;
