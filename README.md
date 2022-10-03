@@ -11,6 +11,7 @@
 * [Crash Avoidance Part 2](#crash-avoidance-part-2)
 * [Crash Avoidance Part 3](#crash-avoidance-part-3)
 * [Landing Area Part 1](#landing-area-part-1)
+* [Landing Area Part 2](#landing-area-part-2)
 * [Onshape_Assignment_Template](#Onshape_Assignment_Template)
 
 &nbsp;
@@ -184,7 +185,8 @@ This was pretty challenging, in terms of getting the wiring to work and working 
 ## Landing Area Part 1
 
 ### Assignment Description
-Create a module that has an accelerometer that continuously reports x, y, and z acceleration values on the serial monitor. The module must have an LED that turns on if the helicopter is tilted to 90 degrees. The module must be powered by a mobile power source. The module must have an onboard screen that prints x, y, and z angular velocity values (rad/s) rounded to 3 decimal places.
+Create a program which calculates the area of a triangle. The code must ask for the user to input a set of three coordinates in (x,y) format. The triangle area must be determined using a function. If the user inputs coordinates incorrectly (letters or improper format) the code should return to the input stage, it should not throw an error or exit the script. The triangle area must be printed to the screen in this format: “The area of the triangle with vertices (x,y), (x,y), (x,y) is {area} square km. The code must return to the input stage after printing the area, and wait for user input.
+
 
 
 ### Evidence 
@@ -207,6 +209,28 @@ I would have to access one of those numbers by saying
 x = output[1]
 ```
 to get the number "420." Other than that, using 'try' and 'except' is actually astoundingly simple and horrifically helpful so it's important to use that. The only other problem was the way I formatted my math statement. Python doesn't recognize 'a(b)' as multiplication so you have to format that as 'a*(b)' and that caught me up for a while.
+
+&nbsp;
+
+## Landing Area Part 2
+
+### Assignment Description
+
+Create a program which calculates the area of a triangle. The code must ask for the user to input a set of three coordinates in (x,y) format. The triangle area must be determined using a function. If the user inputs coordinates incorrectly (letters or improper format) the code should return to the input stage, it should not throw an error or exit the script. The triangle area must be printed to the screen in this format: “The area of the triangle with vertices (x,y), (x,y), (x,y) is {area} square km. The code must return to the input stage after printing the area, and wait for user input. An onboard OLED screen must plot each triangle on a graph relative to the base location.
+
+### Evidence 
+
+![inlineienei](images/tridisplay.gif)
+
+
+### Code
+
+[triangleDisplay.py](https://github.com/inovotn04/Engineering_4_Notebook/blob/main/raspberry-pi/triangleDisplay.py)
+
+
+### Reflection
+
+
 
 
 &nbsp;
