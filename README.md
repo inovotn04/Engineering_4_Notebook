@@ -222,6 +222,9 @@ Create a program which calculates the area of a triangle. The code must ask for 
 
 ![inlineienei](images/tridisplay.gif)
 
+### Wiring
+
+![displaywire](images/displaywire.jpg)
 
 ### Code
 
@@ -242,6 +245,8 @@ Create a program which calculates the area of a triangle. A list of coordinates 
 
 ![spicyicy](images/spicyicy.gif)
 
+### Wiring
+![displaywire](images/displaywire.jpg)
 
 ### Code
 
