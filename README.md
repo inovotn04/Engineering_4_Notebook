@@ -227,10 +227,29 @@ Create a program which calculates the area of a triangle. The code must ask for 
 
 [triangleDisplay.py](https://github.com/inovotn04/Engineering_4_Notebook/blob/main/raspberry-pi/triangleDisplay.py)
 
+### Reflection
+This one is literally just adding a display. I guess like remember the coordinates have 64, 32 as the center. Good luck in your future travels friend.
+
+&nbsp;
+
+## Landing Area Part 3
+
+### Assignment Description
+
+Create a program which calculates the area of a triangle. A list of coordinates must be hard coded into the script. The triangle area must be determined using a function. The code must select the triangle with the closest centroid that has an area > 100 km^2. An onboard screen must plot each triangle as it is evaluated on a graph relative to the base. The code must print the following text “The closest suitable landing area has vertices ({x}, {y}, {z}). The area is {area} km2 and the centroid is {distance} km away from base."
+
+### Evidence 
+
+![spicyicy](images/spicyicy.gif)
+
+
+### Code
+
+[triangleCentroid.py](https://github.com/inovotn04/Engineering_4_Notebook/blob/main/raspberry-pi/triangleCentroid.py)
+
 
 ### Reflection
-
-
+There's a lot of things to say about this. Firstly, put your calculation for the triangle center and the triangle area in two different function. If you don't do this you'll have to do so many lists and other stuff. Furthermore in the end it probably will not work at all, or at least that's what I discovered. If you feel like making more work for yourself then put it all in one function, see if I care.
 
 
 &nbsp;
