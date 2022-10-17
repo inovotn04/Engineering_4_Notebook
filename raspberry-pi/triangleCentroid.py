@@ -20,11 +20,13 @@ display = adafruit_displayio_ssd1306.SSD1306(display_bus, width=128, height=64)
 
 def triangleArea(x1, y1, x2, y2, x3, y3):
     AreaValue = (abs(x1*(y2-y3)+x2*(y3-y1)+x3*(y1-y2)))/2
+    print(AreaValue)
     return(AreaValue)
 def triangleCentroid(x1,y1, x2, y2, x3, y3):
     centroidValueX = (x1 + x2 + x3)/3
     centroidValueY = (y1 + y2 + y3)/3
-    distanceVal = math.sqrt(((centroidValueX - 64)**2)+((centroidValueY-32)**2))
+    distanceVal = math.sqrt(((centroidValueX)**2)+((centroidValueY)**2))
+    print(distanceVal)
     return(distanceVal)
 landHere = 10000
 try:
@@ -37,14 +39,14 @@ try:
             bestPoints = points[x]
             bestArea = triAreaValue
         
-        c1 = int(points[x][0])
-        d1 = int(points[x][1])
+        c1 = int(points[x][0]+64)
+        d1 = int(-points[x][1]+32)
 
-        c2 = int(points[x][2])
-        d2 = int(points[x][3])
+        c2 = int(points[x][2]+64)
+        d2 = int(-points[x][3]+32)
 
-        c3 = int(points[x][4])
-        d3 = int(points[x][5])
+        c3 = int(points[x][4]+64)
+        d3 = int(-points[x][5]+32)
 
         splash = displayio.Group()
 
@@ -63,7 +65,7 @@ try:
         display.show(splash)
         time.sleep(1)
     print(f"The closest suitable landing area has vertices ({bestPoints[0]}, {bestPoints[1]}) ({bestPoints[2]}, {bestPoints[3]}) ({bestPoints[4]}, {bestPoints[5]}). The area is {bestArea} km2 and the centroid is {landHere} km away from base.")
-    triangle = Triangle(bestPoints[0], bestPoints[1], bestPoints[2], bestPoints[3], bestPoints[4], bestPoints[5], outline=0xFFFF00)
+    triangle = Triangle((bestPoints[0]+64), (-bestPoints[1]+32), (bestPoints[2]+64), (-bestPoints[3]+32), (bestPoints[4]+64), (-bestPoints[5]+32), outline=0xFFFF00)
     splash.append(triangle)
     display.show(splash)
     while True:
