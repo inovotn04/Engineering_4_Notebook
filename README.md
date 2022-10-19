@@ -259,6 +259,52 @@ There's a lot of things to say about this. Firstly, put your calculation for the
 
 &nbsp;
 
+## Morse Code Part 1
+
+### Assignment Description
+
+Create a which accepts text input by the user. If the user types “-q”, your script must exit. If the user types anything else, your script must translate the text to morse code dots and dashes, and print those to the monitor. The printed text must use a space to show breaks between letters, and a slash to show breaks between words
+
+
+### Evidence 
+
+![morse](images/morse.gif)
+
+### Code
+
+[MorseCode.py](https://github.com/inovotn04/Engineering_4_Notebook/blob/main/raspberry-pi/MorseCode.py)
+
+
+### Reflection
+If you're cool like me your code will be amazing like mine. I think the only thing is there's some characters missing from the dictionary so if you want to add a ~ then go for it. Also make sure to define an empty string at the top of your code to add on to. You see that empty string? Look at it. Do it.
+
+
+&nbsp;
+
+## Morse Code Part 1
+
+### Assignment Description
+
+Create a which accepts text input by the user. If the user types “-q”, your script must exit. If the user types anything else, your script must translate the text to morse code dots and dashes, and print those to the monitor. The printed text must use a space to show breaks between letters, and a slash to show breaks between words. The script must flash an LED to transmit the morse code message using the timing sequence shown below
+
+### Evidence 
+
+![morse](images/morse.gif)
+
+### Wiring
+![wireman](images/LEDwire.jpg)
+
+### Code
+
+[MorseCodeBlink.py](https://github.com/inovotn04/Engineering_4_Notebook/blob/main/raspberry-pi/MorseCodeBlink.py)
+
+
+### Reflection
+You know how to make an LED blink. Do that. Then you just do a for loop and a bunch of if statements for the dots and dashes. It's simple. It's so horrendously simple. I don't know how to reflect on this. I think I made it a bit less efficient by adding extra 'led.value(False)' lines that didn't need to be there so maybe get rid of those if you feel like it. That's all.
+
+
+&nbsp;
+
 ## Onshape_Assignment_Template
 
 ### Assignment Description
