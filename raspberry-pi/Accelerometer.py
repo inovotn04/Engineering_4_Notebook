@@ -1,14 +1,13 @@
 import board
 import time
-import digitalio
 import adafruit_mpu6050
-import busio
+import busio  #import libraries
 
 sda_pin = board.GP14
-scl_pin = board.GP15
-i2c = busio.I2C(scl_pin, sda_pin)
+scl_pin = board.GP15 #defines pins
+i2c = busio.I2C(scl_pin, sda_pin) #inits i2c device
 
-mpu = adafruit_mpu6050.MPU6050(i2c)
+mpu = adafruit_mpu6050.MPU6050(i2c) #inits mpu accelerometer
 
 while True:
     x = mpu.acceleration[0]

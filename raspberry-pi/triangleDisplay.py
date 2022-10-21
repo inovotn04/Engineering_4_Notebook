@@ -5,7 +5,7 @@ from adafruit_display_shapes.line import Line
 from adafruit_display_shapes.circle import Circle
 import displayio
 import adafruit_displayio_ssd1306
-import busio
+import busio #import libraries
 
 displayio.release_displays()
 sda_pin = board.GP14
@@ -17,15 +17,15 @@ display = adafruit_displayio_ssd1306.SSD1306(display_bus, width=128, height=64)
 
 
 
-def tri_area(x1, y1, x2, y2, x3, y3):
-    niceAreaValue = (abs(x1*(y2-y3)+x2*(y3-y1)+x3*(y1-y2)))/2
-    print(f"The area of the triangle with vertices ({x1}, {y1}), ({x2}, {y2}), ({x3}, {y3}) is {niceAreaValue}")
+def tri_area(x1, y1, x2, y2, x3, y3): #Makes function
+    niceAreaValue = (abs(x1*(y2-y3)+x2*(y3-y1)+x3*(y1-y2)))/2  #calculates triangle area
+    print(f"The area of the triangle with vertices ({x1}, {y1}), ({x2}, {y2}), ({x3}, {y3}) is {niceAreaValue}") #prints it
 while True:
     try:
-        txt1 = input("Input coord set 1 (x,y)")
-        set1 = txt1.split(",")
+        txt1 = input("Input coord set 1 (x,y)") #Asks input
+        set1 = txt1.split(",") #Splits it into list
 
-        a1 = float(set1[0])
+        a1 = float(set1[0]) #Pulls from the list
         b1 = float(set1[1])
 
         txt2 = input("Input coord set 2 (x,y)")
@@ -40,7 +40,7 @@ while True:
         a3 = float(set3[0])
         b3 = float(set3[1])
 
-        tri_area(a1, b1, a2, b2, a3, b3)
+        tri_area(a1, b1, a2, b2, a3, b3) #Calculates the area with tri_area 
 
         c1 = int(a1)
         d1 = int(b1)
@@ -49,7 +49,7 @@ while True:
         d2 = int(b2)
 
         c3 = int(a3)
-        d3 = int(b3)
+        d3 = int(b3) #Sets up variables to be used in display
 
         splash = displayio.Group()
 
@@ -59,7 +59,7 @@ while True:
         hline = Line(64, 64, 64, 0, color=0xFFFF00)
         splash.append(hline)
 
-        circle = Circle(64, 32, 2, outline=0xFFFF00)
+        circle = Circle(64, 32, 2, outline=0xFFFF00)                #All of the display things 
         splash.append(circle)
 
 
@@ -67,4 +67,4 @@ while True:
         splash.append(triangle)
         display.show(splash)
     except:
-        print("Please input valid coordinates (remember format x,y)")
+        print("Please input valid coordinates (remember format x,y)") #If there's an error it returns this

@@ -1,13 +1,13 @@
 import math
-def tri_area(x1, y1, x2, y2, x3, y3):
-    niceAreaValue = (abs(x1*(y2-y3)+x2*(y3-y1)+x3*(y1-y2)))/2
-    print(f"The area of the triangle with vertices ({x1}, {y1}), ({x2}, {y2}), ({x3}, {y3}) is {niceAreaValue}")
+def tri_area(x1, y1, x2, y2, x3, y3): #Makes function
+    niceAreaValue = (abs(x1*(y2-y3)+x2*(y3-y1)+x3*(y1-y2)))/2  #calculates triangle area
+    print(f"The area of the triangle with vertices ({x1}, {y1}), ({x2}, {y2}), ({x3}, {y3}) is {niceAreaValue}") #prints it
 while True:
     try:
-        txt1 = input("Input coord set 1 (x,y)")
-        set1 = txt1.split(",")
+        txt1 = input("Input coord set 1 (x,y)") #Asks input
+        set1 = txt1.split(",") #Splits it into list
 
-        a1 = float(set1[0])
+        a1 = float(set1[0]) #Pulls from the list
         b1 = float(set1[1])
 
         txt2 = input("Input coord set 2 (x,y)")
@@ -22,6 +22,6 @@ while True:
         a3 = float(set3[0])
         b3 = float(set3[1])
 
-        tri_area(a1, b1, a2, b2, a3, b3)
+        tri_area(a1, b1, a2, b2, a3, b3) #Calculates the area with tri_area 
     except:
-        print("Please input valid coordinates (remember format x,y)")
+        print("Please input valid coordinates (remember format x,y)") #If there's an error it returns this
