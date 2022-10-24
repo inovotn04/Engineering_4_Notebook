@@ -231,7 +231,7 @@ Create a program which calculates the area of a triangle. The code must ask for 
 [triangleDisplay.py](https://github.com/inovotn04/Engineering_4_Notebook/blob/main/raspberry-pi/triangleDisplay.py)
 
 ### Reflection
-This one is literally just adding a display. I guess like remember the coordinates have 64, 32 as the center. Good luck in your future travels friend.
+This one is literally just adding a display. I guess like remember the coordinates have 64, 32 as the center. That part actually caused me problems after the fact, so you gotta like do weird math and divisions and stuff. So do those divisions! Like  when you write it, because doing it after the fact is harder and feels more tedious.
 
 &nbsp;
 
@@ -276,12 +276,12 @@ Create a which accepts text input by the user. If the user types “-q”, your 
 
 
 ### Reflection
-If you're cool like me your code will be amazing like mine. I think the only thing is there's some characters missing from the dictionary so if you want to add a ~ then go for it. Also make sure to define an empty string at the top of your code to add on to. You see that empty string? Look at it. Do it.
+This code went really smoothly. Like from start to finish. It must be said that the way I started coding it was really janky, like not using the dictionary correctly. Using the dictionary correctly you only need ONE line of code to tell it to parse through the message and convert it to morse code. If you were doing it incorrectly then you have a bunch of if statements checking the characters and it's like 100 lines of code, and what's even the point of using the dictionary if you're doing that?
 
 
 &nbsp;
 
-## Morse Code Part 1
+## Morse Code Part 2
 
 ### Assignment Description
 
