@@ -12,6 +12,8 @@
 * [Crash Avoidance Part 3](#crash-avoidance-part-3)
 * [Landing Area Part 1](#landing-area-part-1)
 * [Landing Area Part 2](#landing-area-part-2)
+* [Morse Code Part 1](#morse-code-part-1)
+* [Morse Code Part 2](#morse-code-part-2)
 * [Onshape_Assignment_Template](#Onshape_Assignment_Template)
 
 &nbsp;
