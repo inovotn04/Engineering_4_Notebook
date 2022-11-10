@@ -307,11 +307,11 @@ You know how to make an LED blink. Do that. Then you just do a for loop and a bu
 
 &nbsp;
 
-## Onshape_Assignment_Template
+## FEA Part 1
 
 ### Assignment Description
+The beam of pain. Fear. Fear. Fear.
 
-Write your assignment description here. What is the purpose of this assignment? It should be at least a few sentences.
 
 ### Part Link 
 
