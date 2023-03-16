@@ -316,7 +316,7 @@ Making a 180 mm long PLA 3d printed beam intended to hold the most amount of wei
 
 ### Part Link 
 
-[Onshape Link]https://cvilleschools.onshape.com/documents/b0642ff49d8db9b862992a16/w/256263874c5873489822cbff/e/eb74407b2954334966743e40?renderMode=0&uiState=6413215471e8f942da5b5753).
+[Onshape Link](https://cvilleschools.onshape.com/documents/b0642ff49d8db9b862992a16/w/256263874c5873489822cbff/e/eb74407b2954334966743e40?renderMode=0&uiState=6413215471e8f942da5b5753).
 
 ### Part Image
 
@@ -341,7 +341,7 @@ Use simscale to run an FEA analysis on the beam we just created. This is the Fin
 
 ### Part Link 
 
-[Onshape Link]https://cvilleschools.onshape.com/documents/b0642ff49d8db9b862992a16/w/256263874c5873489822cbff/e/eb74407b2954334966743e40?renderMode=0&uiState=6413215471e8f942da5b5753).
+[Onshape Link](https://cvilleschools.onshape.com/documents/b0642ff49d8db9b862992a16/w/256263874c5873489822cbff/e/eb74407b2954334966743e40?renderMode=0&uiState=6413215471e8f942da5b5753).
 
 ### Part Image
 
@@ -366,7 +366,7 @@ After running FEA, use the data collected to improve the design of our beam and 
 
 ### Part Link 
 
-[Onshape Link]https://cvilleschools.onshape.com/documents/b0642ff49d8db9b862992a16/w/256263874c5873489822cbff/e/eb74407b2954334966743e40?renderMode=0&uiState=6413215471e8f942da5b5753).
+[Onshape Link](https://cvilleschools.onshape.com/documents/b0642ff49d8db9b862992a16/w/256263874c5873489822cbff/e/eb74407b2954334966743e40?renderMode=0&uiState=6413215471e8f942da5b5753).
 
 ### Part Image
 
