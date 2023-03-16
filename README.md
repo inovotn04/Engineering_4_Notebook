@@ -310,16 +310,16 @@ You know how to make an LED blink. Do that. Then you just do a for loop and a bu
 ## FEA Part 1
 
 ### Assignment Description
-The beam of pain. Fear. Fear. Fear.
+Making a 180 mm long PLA 3d printed beam intended to hold the most amount of weight without breaking or bending past 35 mm. It must also not weigh more than 13 grams and work fully with the provided materials (attachment block and the bolt to hang weight off of). 
 
 
 ### Part Link 
 
-[Create a link to your Onshape document](https://cvilleschools.onshape.com/documents/003e413cee57f7ccccaa15c2/w/ea71050bb283bf3bf088c96c/e/c85ae532263d3b551e1795d0?renderMode=0&uiState=62d9b9d7883c4f335ec42021). Don't forget to turn on link sharing in your Onshape document so that others can see it. 
+[Onshape Link]https://cvilleschools.onshape.com/documents/b0642ff49d8db9b862992a16/w/256263874c5873489822cbff/e/eb74407b2954334966743e40?renderMode=0&uiState=6413215471e8f942da5b5753).
 
 ### Part Image
 
-Take a nice screenshot of your Onshape document. 
+![Image](https://github.com/bwright70/RasberryPiPico/blob/main/images/Beam%20Design%201.png)
 
 ### Reflection
 
