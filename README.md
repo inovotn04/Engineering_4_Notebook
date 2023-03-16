@@ -310,6 +310,7 @@ You know how to make an LED blink. Do that. Then you just do a for loop and a bu
 ## FEA Part 1
 
 ### Assignment Description
+
 Making a 180 mm long PLA 3d printed beam intended to hold the most amount of weight without breaking or bending past 35 mm. It must also not weigh more than 13 grams and work fully with the provided materials (attachment block and the bolt to hang weight off of). 
 
 
@@ -321,11 +322,66 @@ Making a 180 mm long PLA 3d printed beam intended to hold the most amount of wei
 
 ![Image](https://github.com/bwright70/RasberryPiPico/blob/main/images/Beam%20Design%201.png)
 
+Image courtesy to
+[Ben Wright](https://github.com/bwright70/RasberryPiPico)
+
 ### Reflection
 
-What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience? Your goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
+There are many things which one can say went wrong with this assignment. In my infinite wisdom, when my partner Ben was absent, I designed this beam to include as many triangles as possible, because hey that sounds structurally sound. It had the right idea but unfortunately I forgot that they sort of have to be connected in order to add any benefits. Needlessly to say our beam immediately broke. So consider whether a design logically makes sense before you just make the coolest thing possible.
 
 &nbsp;
+
+
+## FEA Part 2
+
+### Assignment Description
+
+Use simscale to run an FEA analysis on the beam we just created. This is the Finite Element Analysis of the FEA assignment.
+
+
+### Part Link 
+
+[Onshape Link]https://cvilleschools.onshape.com/documents/b0642ff49d8db9b862992a16/w/256263874c5873489822cbff/e/eb74407b2954334966743e40?renderMode=0&uiState=6413215471e8f942da5b5753).
+
+### Part Image
+
+![Image](https://github.com/bwright70/RasberryPiPico/blob/main/images/Beam%20Simulation.png)
+
+Image courtesy to
+[Ben Wright](https://github.com/bwright70/RasberryPiPico)
+
+### Reflection
+
+So after creating the mesh and trying to simulate a weight on the beam, there was some error in simscale, likely due to what a weird part we created, which meant we had to change some setting to override it and let us simulate. After simulating it was very apparent that the beam was awful and would immediately break, however it was easy to ignore that and blame that on the setting we changed. In the above image, displacement is not turned on, if it was on then the beam would like gumby being used to hold together a tractor trailer. Long story short we should've changed a lot more before the physical test but I'll get to that in the next part.
+
+&nbsp;
+
+
+## FEA Part 3
+
+### Assignment Description
+
+After running FEA, use the data collected to improve the design of our beam and decrease the maximum stress by half of what it was originally.
+
+
+### Part Link 
+
+[Onshape Link]https://cvilleschools.onshape.com/documents/b0642ff49d8db9b862992a16/w/256263874c5873489822cbff/e/eb74407b2954334966743e40?renderMode=0&uiState=6413215471e8f942da5b5753).
+
+### Part Image
+
+![Image](https://github.com/bwright70/RasberryPiPico/blob/main/images/Beam%20Design%202.png)
+
+Image courtesy to
+[Ben Wright](https://github.com/bwright70/RasberryPiPico)
+
+### Reflection
+
+So we did in fact make design changes after the horrific simulation. We added those little supporting diamonds in between that triangles which you can see in the image, and also generally optimized the part. This didn't change the main problem that the triangles were completely unconncected at the top which ultimately came back to haunt us when we tested it in the physical realm. It did in fact decrease the deflection and stress significantly though, but the design itself was still very flawed. 
+
+&nbsp;
+
+
 
 ## Media Test
 
