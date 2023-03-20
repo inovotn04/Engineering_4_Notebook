@@ -14,7 +14,7 @@
 * [Landing Area Part 2](#landing-area-part-2)
 * [Morse Code Part 1](#morse-code-part-1)
 * [Morse Code Part 2](#morse-code-part-2)
-* [Onshape_Assignment_Template](#Onshape_Assignment_Template)
+* [FEA Part 1)(#fea-part-1)
 
 &nbsp;
 
@@ -380,6 +380,30 @@ Image courtesy to
 So we did in fact make design changes after the horrific simulation. We added those little supporting diamonds in between that triangles which you can see in the image, and also generally optimized the part. This didn't change the main problem that the triangles were completely unconncected at the top which ultimately came back to haunt us when we tested it in the physical realm. It did in fact decrease the deflection and stress significantly though, but the design itself was still very flawed. 
 
 &nbsp;
+
+## Ring and Spinner
+
+(I made the spinner)
+
+### Assignment Description
+
+Using Onshape, create the first part of a CAD model representing one of those spinny flying propeller things. I created the "spinner" part which slots into the propeller and create the rack and pinion relationship between the key to make it spin. The parts must have the measurements specified in the assignment. 
+
+
+### Part Link 
+
+[Onshape Link](https://cvilleschools.onshape.com/documents/cefa2f1ec2fa9e5464d39714/w/7ba99138f933b01dea9e2b36/e/b0646f7597741d74c99b2536).
+
+### Part Image
+
+![Image](https://github.com/inovotn04/Engineering_4_Notebook/blob/main/images/Spinner.png)
+
+### Reflection
+
+I have nothing to write here. If anything the biggest lesson is  to write your reflections right after you finish the assignment, so you can actually have something to write. Nobody will read this but you though, it doesn't matter. My knowledge, my experience, is carried on through words and words, themselves, are carried on through their own meaning. We're taught this meaning through others. I am one of those others, persisting the meaning of these words, and these words are persisting the story of my own life. You are the sole proprietor now of a piece of my being, and the judge and jury, deciding what that means to you.
+
+&nbsp;
+
 
 
 
