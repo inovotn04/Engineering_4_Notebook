@@ -14,7 +14,7 @@
 * [Landing Area Part 2](#landing-area-part-2)
 * [Morse Code Part 1](#morse-code-part-1)
 * [Morse Code Part 2](#morse-code-part-2)
-* [FEA Part 1)(#fea-part-1)
+* [FEA Part 1](#fea-part-1)
 
 &nbsp;
 
@@ -405,7 +405,28 @@ I have nothing to write here. If anything the biggest lesson is  to write your r
 &nbsp;
 
 
+## Key and Prop
 
+(I made the Prop)
+
+### Assignment Description
+
+Using Onshape, create the first part of a CAD model representing one of those spinny flying propeller things. In this assignment I created the "prop" part which is the propeller. It flies off when spun and looks cool. Yay. The parts must have the measurements specified in the assignment. 
+
+
+### Part Link 
+
+[Onshape Link](https://cvilleschools.onshape.com/documents/cefa2f1ec2fa9e5464d39714/w/7ba99138f933b01dea9e2b36/e/b0646f7597741d74c99b2536).
+
+### Part Image
+
+![Image](https://github.com/inovotn04/Engineering_4_Notebook/blob/main/images/Prop.png)
+
+### Reflection
+
+Is it me that has nothing to write? Or is it you that has nothing read? A patient goes to the doctor's office in perfect health and wellness. The doctor mourns.
+
+&nbsp;
 
 ## Media Test
 
